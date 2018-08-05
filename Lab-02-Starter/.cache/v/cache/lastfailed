@@ -1,0 +1,11 @@
+{
+  "test_count.py": true, 
+  "test_number_list.py::test_average": true, 
+  "test_number_list.py::test_descending": true, 
+  "test_number_list.py::test_kth_smallest": true, 
+  "test_number_list.py::test_max": true, 
+  "test_number_list.py::test_min": true, 
+  "test_number_list.py::test_reverse": true, 
+  "test_number_list.py::test_second_smallest": true, 
+  "test_number_list.py::test_sum": true
+}

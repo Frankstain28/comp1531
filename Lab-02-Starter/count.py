@@ -9,11 +9,28 @@
 
 
 def count_char(text):
-    pass
+    dict = {}
+    for x in text:
+        if x in dict:
+            dict[x] += 1
+        else:
+            dict[x] = 1
+    
+    for x in dict:
+        print(x, dict[x])
     # add your code here
 
 def count_char_insensitive(text):
-    pass
+    text2 = text.lower()
+    dict = {}
+    for x in text2:
+    	if x in dict:
+    		dict[x] += 1
+    	else:
+    		dict[x] = 1
+    
+    for x in dict:
+    	print(x,dict[x])
     # add your code here
 
 # bonus task:
